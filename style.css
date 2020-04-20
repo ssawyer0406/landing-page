@@ -1,0 +1,150 @@
+/* base styles */
+
+:root{
+    box-sizing:border-box;
+}
+img{
+    width: 100%;
+
+}
+span{
+    display:inline-block;
+}
+
+
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+.background_image{
+    z-index: -1;
+    position: relative;
+    bottom:165px;
+}
+
+/* layout styles */
+.header{
+    display:flex;
+    flex-direction:column;
+
+   
+}
+
+.main_section{
+display: flex;
+flex-direction: column;
+align-items: center;
+/* background-image: url("images/backgrounds/hero-bg-texture.png"); */
+
+}
+
+
+
+.features{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+
+.favorite_products{
+    display:flex;
+    justify-content: center;
+}
+.footer{
+    background: linear-gradient(229.93deg, #AB00FF -21.91%, #007BFF 133.89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* block styles */
+/* HEADER */
+.header_title{
+    font-size:1.5em;
+}
+
+.header_nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_nav li{
+    font-size:.5em;
+}
+/* MAIN SECTION */
+.main_section_card{
+width: 60%;
+
+
+}
+.main_section_img{
+    width:100%;
+}
+
+.main_title_container{
+    position:relative;
+    width: 45%;
+ 
+}
+.main_section_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+}
+/* FEATURES SECTION */
+.features_card{
+    margin: 10px;
+    font-size: 0.75em;
+    display: flex;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    width:90%;
+    height: 100px;
+}
+.features_card p{
+    width:50%;
+}
+.feature_card_title{
+    width:50%;
+}
+.features_card_image{
+    width: 5%;
+}
+
+.purple_icon, .red_icon{
+    width:5%;
+}
+.features_dashboard{
+    margin-top: 30px;
+    width:90%;
+
+}
+/* FOOTER SECTION */
+.footer_form{
+    
+}
+.footer_input{
+    width: 211px;
+    height:35px;
+    border-radius: 34.5px;
+    opacity: 0.4;
+    background-color: #FFFFFF;
+
+}
+.footer_button{
+    width:118px;
+    height:35px;
+    border-radius: 34.5px;
+    background-color: white;
+    
+}
